@@ -150,7 +150,7 @@ ol {
     text-transform: uppercase;
     display: inline-block;
     padding: 13px 30px 12px;
-    background: #7fad39;
+    background: #99ff00;
     border: none;
 }
 
@@ -385,6 +385,7 @@ ol {
 
 .header__logo {
     padding: 15px 0;
+    width: 200px;
 }
 
 .header__logo a {
