@@ -70,7 +70,7 @@ a:hover,
 a:focus {
     text-decoration: none;
     outline: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 ul,
@@ -101,7 +101,7 @@ ol {
     right: 0;
     height: 4px;
     width: 80px;
-    background: #7fad39;
+    background: #00AB50;
     content: "";
     margin: 0 auto;
 }
@@ -110,6 +110,7 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    border-radius: 25px;
 }
 
 .spad {
@@ -136,11 +137,12 @@ ol {
     display: inline-block;
     font-size: 14px;
     padding: 10px 28px 10px;
-    color: #ffffff;
+    color: #02770f;
     text-transform: uppercase;
     font-weight: 700;
-    background: #7fad39;
+    background: #ffffff;
     letter-spacing: 2px;
+    border-radius: 25px;
 }
 
 .site-btn {
@@ -426,7 +428,7 @@ ol {
 }
 
 .header__menu ul li .header__menu__dropdown li:hover>a {
-    color: #7fad39;
+    color: #00AB50;
 }
 
 .header__menu ul li .header__menu__dropdown li a {
@@ -437,7 +439,7 @@ ol {
 }
 
 .header__menu ul li.active a {
-    color: #7fad39;
+    color: #00AB50;
 }
 
 .header__menu ul li:hover .header__menu__dropdown {
@@ -447,7 +449,7 @@ ol {
 }
 
 .header__menu ul li:hover>a {
-    color: #7fad39;
+    color: #00AB50;
 }
 
 .header__menu ul li:last-child {
@@ -501,7 +503,7 @@ ol {
 .header__cart ul li a span {
     height: 13px;
     width: 13px;
-    background: #7fad39;
+    background: #00AB50;
     font-size: 10px;
     color: #ffffff;
     line-height: 13px;
@@ -531,4 +533,214 @@ ol {
 
 .humberger__open {
     display: none;
+}
+
+/*---------------------
+  Hero
+-----------------------*/
+
+.hero {
+    padding-bottom: 50px;
+}
+
+.hero.hero-normal {
+    padding-bottom: 30px;
+}
+
+.hero.hero-normal .hero__categories {
+    position: relative;
+}
+
+.hero.hero-normal .hero__categories ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 46px;
+    width: 100%;
+    z-index: 9;
+    background: #ffffff;
+}
+
+.hero.hero-normal .hero__search {
+    margin-bottom: 0;
+}
+
+.hero__categories__all {
+    background: #00AB50;
+    position: relative;
+    padding: 10px 25px 10px 40px;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+
+.hero__categories__all i {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+
+}
+
+.hero__categories__all span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.hero__categories__all:after {
+    position: absolute;
+    right: 18px;
+    top: 9px;
+    content: "3";
+    font-family: "ElegantIcons";
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.hero__categories ul {
+    border: 1px solid #ebebeb;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+
+.hero__categories ul li {
+    list-style: none;
+}
+
+.hero__categories ul li a {
+    font-size: 16px;
+    color: #1c1c1c;
+    line-height: 39px;
+    display: block;
+}
+
+.hero__search {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.hero__search__form {
+    width: 610px;
+    height: 50px;
+    border: 1px solid #ebebeb;
+    position: relative;
+    float: left;
+    border-radius: 25px;
+}
+
+.hero__search__form form .hero__search__categories {
+    width: 30%;
+    float: left;
+    font-size: 16px;
+    color: #1c1c1c;
+    font-weight: 700;
+    padding-left: 18px;
+    padding-top: 11px;
+    position: relative;
+
+}
+
+.hero__search__form form .hero__search__categories:after {
+    position: absolute;
+    right: 0;
+    top: 14px;
+    height: 20px;
+    width: 1px;
+    background: #000000;
+    opacity: 0.1;
+    content: "";
+}
+
+.hero__search__form form .hero__search__categories span {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+
+.hero__search__form form input {
+    width: 70%;
+    border: none;
+    height: 48px;
+    font-size: 16px;
+    color: #b2b2b2;
+    padding-left: 20px;
+}
+
+.hero__search__form form input::placeholder {
+    color: #b2b2b2;
+}
+
+.hero__search__form form button {
+    position: absolute;
+    right: 0;
+    top: -1px;
+    height: 50px;
+    border-radius: 25px;
+    background: #00AB50;
+
+}
+
+.hero__search__phone {
+    float: right;
+}
+
+.hero__search__phone__icon {
+    font-size: 18px;
+    color: #00AB50;
+    height: 50px;
+    width: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.hero__search__phone__text {
+    overflow: hidden;
+}
+
+.hero__search__phone__text h5 {
+    color: #1c1c1c;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.hero__search__phone__text span {
+    font-size: 14px;
+    color: #6f6f6f;
+}
+
+.hero__item {
+    height: 431px;
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+}
+
+.hero__text span {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #eafcce;
+}
+
+.hero__text h2 {
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.hero__text p {
+    margin-bottom: 35px;
+    color: #ffffff;
+    font-size: 20px;
+
 }
