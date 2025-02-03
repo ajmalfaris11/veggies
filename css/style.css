@@ -936,3 +936,8 @@ ol {
 	color: #252525;
 	font-weight: 700;
 }
+
+.banner__pic {
+    border-radius: 25px;
+    overflow: hidden;
+}
