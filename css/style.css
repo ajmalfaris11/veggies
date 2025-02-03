@@ -766,13 +766,14 @@ ol {
 
 .categories__item h5 a {
 	font-size: 18px;
-	color: #1c1c1c;
+	color: #00AB50;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	padding: 12px 0 10px;
 	background: #ffffff;
 	display: block;
+    border-radius: 25px;
 }
 
 .categories__slider .col-lg-3 {
