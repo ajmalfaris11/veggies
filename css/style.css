@@ -1017,3 +1017,26 @@ ol {
 	color: #252525;
 	font-weight: 700;
 }
+
+/*---------------------
+  Form BLog
+-----------------------*/
+
+.from-blog {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.from-blog .blog__item {
+	margin-bottom: 30px;
+}
+
+.from-blog__title {
+	margin-bottom: 70px;
+    color: black;
+}
+
+.blog__item__pic {
+    border-radius: 25px;
+    overflow: hidden;
+}
