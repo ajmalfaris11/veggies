@@ -1179,8 +1179,8 @@ ol {
 }
 
 .checkout__input__checkbox label input:checked~.checkmark {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #00AB50;
+	border-color: #00AB50;
 }
 
 .checkout__input__checkbox label input:checked~.checkmark:after {
@@ -1409,7 +1409,7 @@ ol {
 }
 
 .blog__sidebar__item ul li a:hover {
-	color: #7fad39;
+	color: #00AB50;
 }
 
 .blog__sidebar__search {
@@ -1629,7 +1629,7 @@ ol {
 }
 
 .blog__details__widget .blog__details__social a:hover {
-	color: #7fad39;
+	color: #00AB50;
 }
 
 .blog__details__widget .blog__details__social a:last-child {
@@ -1749,7 +1749,7 @@ ol {
 }
 
 .footer__widget .footer__widget__social a:hover {
-	background: #7fad39;
+	background: #00AB50;
 	color: #ffffff;
 	border-color: #ffffff;
 }
@@ -1775,4 +1775,34 @@ ol {
 .footer__form {
     border-radius: 25px;
     overflow: hidden;
+}
+
+/*---------------------
+  Contact
+-----------------------*/
+
+.contact {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.contact__widget {
+	margin-bottom: 30px;
+}
+
+.contact__widget span {
+	font-size: 36px;
+	color: #00AB50;
+}
+
+.contact__widget h4 {
+	color: #1c1c1c;
+	font-weight: 700;
+	margin-bottom: 6px;
+	margin-top: 18px;
+}
+
+.contact__widget p {
+	color: #666666;
+	margin-bottom: 0;
 }
