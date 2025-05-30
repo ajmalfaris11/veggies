@@ -2486,6 +2486,9 @@ ol {
     height: 350px;
     display: flex;
     align-items: center;
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 25px;
 }
 
 .blog__details__hero__text {
