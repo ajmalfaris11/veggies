@@ -2449,6 +2449,8 @@ ol {
 .blog__sidebar__recent__item__pic {
     float: left;
     margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .blog__sidebar__recent__item__text {
@@ -2476,6 +2478,7 @@ ol {
     padding: 7px 26px 5px;
     margin-right: 6px;
     margin-bottom: 10px;
+    border-radius: 25px;
 }
 
 /*---------------------
@@ -2545,11 +2548,12 @@ ol {
 }
 
 .blog__details__text {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
 
 .blog__details__text img {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    border-radius: 25px;
 }
 
 .blog__details__text p {
@@ -2561,7 +2565,8 @@ ol {
     color: #333333;
     font-weight: 700;
     line-height: 30px;
-    margin-bottom: 30px;
+    margin-block: 50px;
+
 }
 
 .blog__details__author__pic {
