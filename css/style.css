@@ -2562,11 +2562,16 @@ ol {
 
 .blog__details__text {
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .blog__details__text img {
     margin-bottom: 50px;
     border-radius: 25px;
+    width: 50%;
 }
 
 .blog__details__text p {
