@@ -1048,7 +1048,9 @@ ol {
 .breadcrumb-section {
     display: flex;
     align-items: center;
-    padding: 45px 0 40px;
+    padding: 50px 0 50px;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .breadcrumb__text h2 {
@@ -1333,8 +1335,8 @@ ol {
 }
 
 .product__item__pic__hover li:hover a {
-    background: #7fad39;
-    border-color: #7fad39;
+    background: #3CC032;
+    border-color: #3CC032;
 }
 
 .product__item__pic__hover li:hover a i {
@@ -1532,7 +1534,7 @@ ol {
 }
 
 .filter__option span:hover {
-    color: #7fad39;
+    color: #3CC032;
 }
 
 .product__item {
@@ -1573,8 +1575,8 @@ ol {
 }
 
 .product__item__pic__hover li:hover a {
-    background: #7fad39;
-    border-color: #7fad39;
+    background: #3CC032;
+    border-color: #3CC032;
 }
 
 .product__item__pic__hover li:hover a i {
@@ -1650,12 +1652,13 @@ ol {
     -ms-transition: all, 0.3s;
     -o-transition: all, 0.3s;
     transition: all, 0.3s;
+    border-radius: 25px;
 }
 
 .product__pagination a:hover,
 .blog__pagination a:hover {
-    background: #7fad39;
-    border-color: #7fad39;
+    background: #3CC032;
+    border-color: #3CC032;
     color: #ffffff;
 }
 
@@ -2827,7 +2830,7 @@ ol {
 
 .map .map-inside i {
     font-size: 48px;
-    color: #7fad39;
+    color: #3CC032;
     position: absolute;
     bottom: -75px;
     left: 50%;
@@ -3120,7 +3123,7 @@ ol {
     .humberger__menu__cart ul li a span {
         height: 13px;
         width: 13px;
-        background: #7fad39;
+        background: #3CC032;
         font-size: 10px;
         color: #ffffff;
         line-height: 13px;
@@ -3200,7 +3203,7 @@ ol {
         -webkit-border-radius: 0;
         border-radius: 0;
         background: transparent;
-        color: #7fad39;
+        color: #3CC032;
     }
 
     .humberger__menu__wrapper .slicknav_nav .slicknav_row,
@@ -3433,7 +3436,7 @@ ol {
     .humberger__menu__cart ul li a span {
         height: 13px;
         width: 13px;
-        background: #7fad39;
+        background: #3CC032;
         font-size: 10px;
         color: #ffffff;
         line-height: 13px;
@@ -3513,7 +3516,7 @@ ol {
         -webkit-border-radius: 0;
         border-radius: 0;
         background: transparent;
-        color: #7fad39;
+        color: #3CC032;
     }
 
     .humberger__menu__wrapper .slicknav_nav .slicknav_row,
