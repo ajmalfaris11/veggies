@@ -2025,6 +2025,7 @@ ol {
     text-align: center;
     display: inline-block;
     margin-right: 15px;
+    border-radius: 25px;
 }
 
 .shoping__discount form input::placeholder {
@@ -2032,14 +2033,14 @@ ol {
 }
 
 .shoping__discount form button {
-    padding: 15px 30px 11px;
+    padding: 15px 30px;
     font-size: 12px;
     letter-spacing: 4px;
-    background: #6f6f6f;
+    background: #02770f;
 }
 
 .shoping__checkout {
-    background: #f5f5f5;
+    background: #f5feee;
     padding: 30px;
     padding-top: 20px;
     margin-top: 50px;
