@@ -2932,3 +2932,33 @@ ol {
 		max-width: 1170px;
 	}
 }
+
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.header__menu ul li {
+		margin-right: 45px;
+	}
+	.hero__search__form {
+		width: 490px;
+	}
+	.hero__categories__all {
+		padding: 10px 25px 10px 20px;
+	}
+	.hero__categories ul {
+		padding-left: 20px;
+	}
+	.latest-product__slider.owl-carousel .owl-nav {
+		right: 0;
+	}
+	.product__details__tab .nav-tabs:before {
+		width: 265px;
+	}
+	.product__details__tab .nav-tabs:after {
+		width: 265px;
+	}
+	.shoping__discount form input {
+		width: 240px;
+	}
+}
