@@ -1,10 +1,10 @@
 /*  ---------------------------------------------------
     Template Name: veggies
     Description:  veggies eCommerce  HTML Template
-    Author: Colorlib
+    Author: Ajmal Faris
     Author URI: https://ajmalfaris.me
     Version: 1.0
-    Created: Colorlib
+    Created: Ajmal Faris
 ---------------------------------------------------------  */
 
 'use strict';
