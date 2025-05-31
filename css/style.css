@@ -2923,3 +2923,12 @@ ol {
     letter-spacing: 2px;
     border-radius: 25px;
 }
+
+
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
